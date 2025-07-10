@@ -1,4 +1,3 @@
-import { it } from "node:test";
 import { BsDot } from "react-icons/bs";
 
 export default function Skills() {
@@ -40,7 +39,7 @@ export default function Skills() {
                 {skill.category}
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
-                {skill.items.map((item, itemIndex) => (
+                {skill.items.map((item) => (
                   <span
                     key={index}
                     className="bg-gray-700 text-gray-200 px-4 py-2 rounded-full text-lg font-medium border border-gray-600 flex items-center"

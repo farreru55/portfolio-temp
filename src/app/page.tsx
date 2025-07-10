@@ -1,21 +1,5 @@
 "use client";
 
-import Link from "next/link";
-import { useState } from "react";
-import {
-  FaLinkedinIn,
-  FaGithub,
-  FaTwitter,
-  FaHome,
-  FaUser,
-  FaCode,
-  FaBriefcase,
-  FaEnvelope,
-  FaFire,
-  FaPaperPlane,
-} from "react-icons/fa";
-import { BsDot } from "react-icons/bs";
-import Image from "next/image";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import About from "./components/about";
