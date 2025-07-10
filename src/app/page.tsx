@@ -7,6 +7,7 @@ import Skills from "./components/skills";
 import Project from "./components/project";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (

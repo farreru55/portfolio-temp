@@ -15,7 +15,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Nama Anda - Portofolio',
+  title: 'Farrel - Portofolio',
   description: 'Portofolio pribadi seorang Pengembang Web & Desainer UI/UX.',
 };
 
