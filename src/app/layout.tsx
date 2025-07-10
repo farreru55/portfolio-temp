@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Poppins, Open_Sans } from 'next/font/google';
 import './globals.css';
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
       <body className="font-open-sans antialiased">{children}</body>
+      <Analytics />
     </html>
   );
 }
